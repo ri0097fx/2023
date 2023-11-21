@@ -11,3 +11,8 @@ class_index = json.load(open('imagenet_class_index.json', 'r'))
 print(class_index)
 ```
 
+Convert keys str to int:
+```python
+labels = {int(key):value for (key, value) in class_index.items()}
+print(labels[231])
+```
