@@ -5,7 +5,7 @@
 [こちらのリンクから](https://colab.research.google.com/drive/1xXIwb8mUwa3uT0cQ4bZH5n6NDu5iO17B?usp=sharing)
 
 ### 画像認識
-GitHubnのレポジトリをクローンする
+GitHubのレポジトリをクローンする
 ```python
 !git clone https://github.com/ri0097fx/2023.git
 ```
@@ -49,7 +49,7 @@ for i in predict:
 ```
 
 ### 物体検出
-GitHubnのレポジトリをクローンする
+GitHubのレポジトリをクローンする
 ```python
 !git clone https://github.com/ultralytics/yolov5
 ```
@@ -86,5 +86,12 @@ for img in paths:
 imgs[0]
 ```
 
-### 画像生成
+### 画像生成１
 [こちらのリンクから](https://colab.research.google.com/drive/1dhKHkm3qHYfWKjmUERNgmRvJxKwXS4lM?usp=sharing)
+
+## 基礎実習2
+### パーセプトロン
+[こちらのリンクから](https://colab.research.google.com/drive/188BM4B5aAk1t2le7w-uPpQy_ORlTwES-?usp=sharing)
+
+### 画像生成２
+[こちらのリンクから](https://colab.research.google.com/drive/1sBGFQpqCeAVJ54Pt7B_o88QwT9c-a5m3?usp=sharing)
