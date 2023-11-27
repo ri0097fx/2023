@@ -81,3 +81,6 @@ for img in paths:
     imgs.append(Image.open(img))
 imgs[0]
 ```
+
+### 画像生成
+[こちらのリンクから](https://colab.research.google.com/drive/1dhKHkm3qHYfWKjmUERNgmRvJxKwXS4lM?usp=sharing)
