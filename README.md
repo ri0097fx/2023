@@ -1,5 +1,9 @@
 # 2023
 ## Week 1
+Clone repositories:
+```python
+git clone 
+```
 Download ImageNet-class JSON file:
 ```python
 !wget https://s3.amazonaws.com/deep-learning-models/image-models/imagenet_class_index.json
