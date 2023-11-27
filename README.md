@@ -73,7 +73,7 @@ imgs[0]
 !python3 detect.py
 ```
 結果の画像を表示  
-結果画像のパスは **「Results saved to 「{結果画像のパス}」** と表示される
+結果画像のパスは **「Results saved to {結果画像のパス} 」** と表示される
 ```python
 paths = glob.glob(os.path.join('{結果画像のパス}','*.*'))
 imgs = []
