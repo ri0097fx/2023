@@ -37,5 +37,5 @@ tensor_img = make_tensor_img(img_path)
 ```python
 out = model(tensor_img).argmax(-1)
 for i in predict:
-    labels[i.item()][-1]
+    print(labels[i.item()][-1])
 ```
