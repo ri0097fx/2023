@@ -37,7 +37,7 @@ model = models.vgg19(weights=models.VGG19_Weights.IMAGENET1K_V1).eval()
 ```
 画像を読み込み、テンソルデータに変換
 ```python
-img_path = './sample_data/sample.jpg'
+img_path = './sample_data/sample1.jpg'
 tensor_img = make_tensor_img(img_path)
 ```
 モデルに入力し、出力を表示
