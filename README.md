@@ -72,7 +72,7 @@ imgs[0]
 ```python
 !python3 detect.py
 ```
-結果の画像を表示
+結果の画像を表示\n
 Results saved to [結果画像のパス]
 ```python
 paths = glob.glob(os.path.join('[結果画像のパス]','*.*'))
