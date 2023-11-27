@@ -1,5 +1,5 @@
 # 2023
-## Week 1
+## 基礎実習1
 
 ### Python基礎
 [こちらのリンクから](https://colab.research.google.com/drive/1xXIwb8mUwa3uT0cQ4bZH5n6NDu5iO17B?usp=sharing)
