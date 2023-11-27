@@ -4,6 +4,9 @@
 GitHubnのレポジトリをクローンする
 ```python
 !git clone https://github.com/ri0097fx/2023.git
+```
+ディレクトリを移動する
+```python
 cd 2023
 ```
 ImageNetのクラス情報(JSON)をダウンロードする
