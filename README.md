@@ -1,7 +1,7 @@
 # 2023
 ## Week 1
 ### 画像認識
-レポジトリをクローンする
+GitHubnのレポジトリをクローンする
 ```python
 !git clone https://github.com/ri0097fx/2023.git
 cd 2023
@@ -20,4 +20,22 @@ print(class_index)
 ```python
 labels = {int(key):value for (key, value) in class_index.items()}
 print(labels[332])
+```
+ImageNetで学習済みの画像認識モデルを読み込む
+```python
+from torchvision import models
+from utils import *
+
+model = models.vgg19(weights=models.VGG19_Weights.IMAGENET1K_V1).eval()
+```
+画像を読み込み、テンソルデータに変換する
+```python
+img_path = './sample_data/sample.jpg'
+tensor_img = make_tensor_img(img_path)
+```
+モデルに入力し、出力を表示する
+```python
+out = model(tensor_img).argmax(-1)
+for i in predict:
+    labels[i.item()][-1]
 ```
