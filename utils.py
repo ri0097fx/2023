@@ -11,7 +11,7 @@ def make_tensor_img(path, img_size=224):
         transforms.Normalize([0.485, 0.456, 0.406],[0.229, 0.224, 0.225]),
         ])
     if os.path.isdir(path):
-        paths = glob.glob(os.path.join(path, '*.*'))
+        paths = sorted(glob.glob(os.path.join(path, '*.*')))
         imgs = []
         for img_path in paths:
             img = Image.open(img_path,)
