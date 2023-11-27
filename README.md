@@ -38,7 +38,8 @@ tensor_img = make_tensor_img(img_path)
 ```
 モデルに入力し、出力を表示する
 ```python
-out = model(tensor_img).argmax(-1)
+out = model(tensor_img)
+predict = out.argmax(-1)
 for i in predict:
     print(labels[i.item()][-1])
 ```
