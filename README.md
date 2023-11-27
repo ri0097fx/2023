@@ -2,7 +2,8 @@
 ## Week 1
 Clone repositories:
 ```python
-git clone 
+!git clone https://github.com/ri0097fx/2023.git
+cd 2023
 ```
 Download ImageNet-class JSON file:
 ```python
