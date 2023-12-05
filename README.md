@@ -89,9 +89,12 @@ imgs[0]
 ### 画像生成１
 [こちらのリンクから](https://colab.research.google.com/drive/1dhKHkm3qHYfWKjmUERNgmRvJxKwXS4lM?usp=sharing)
 
-## 基礎実習2
+## 基礎実習3
 ### パーセプトロン
 [こちらのリンクから](https://colab.research.google.com/drive/188BM4B5aAk1t2le7w-uPpQy_ORlTwES-?usp=sharing)
 
 ### 画像生成２
 [こちらのリンクから](https://colab.research.google.com/drive/1sBGFQpqCeAVJ54Pt7B_o88QwT9c-a5m3?usp=sharing)
+
+### 畳み込みニューラルネットワーク
+[こちらのリンクから](https://colab.research.google.com/drive/1Sgi3Ic3vMp30au0rNjh96KrZP-pFxNHA?usp=sharing)
