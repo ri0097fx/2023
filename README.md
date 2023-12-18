@@ -98,3 +98,6 @@ imgs[0]
 
 ### 畳み込みニューラルネットワーク
 [こちらのリンクから](https://colab.research.google.com/drive/1Sgi3Ic3vMp30au0rNjh96KrZP-pFxNHA?usp=sharing)
+
+### 手書き文字認識
+[こちら](https://colab.research.google.com/drive/1pW1VZmzsojO4F1jlX7K_9InAy1E8Tdz0?usp=sharing)
