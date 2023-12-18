@@ -101,3 +101,6 @@ imgs[0]
 
 ### 手書き文字認識
 [こちら](https://colab.research.google.com/drive/1pW1VZmzsojO4F1jlX7K_9InAy1E8Tdz0?usp=sharing)
+
+### 軽量化
+[こちら](https://colab.research.google.com/drive/1cCZwh0MB8txkFgIlFifi5vQm1Tk9F7gS)
